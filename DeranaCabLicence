@@ -3,13 +3,13 @@
   "license_key": "DERAN-TRIAL-0000-0000",
   "issued_to": "Example Customer",
   "issued_by": "DeranCab",
-  "issued_date": "2025-10-25T12:00:00Z",
-  "activation_date": "2025-10-25T12:00:00Z",
-  "expiry_date": "2025-11-24T12:00:00Z",
+  "issued_date": "2025-10-24T12:00:00Z",
+  "activation_date": "2025-10-24T12:00:00Z",
+  "expiry_date": "2025-11-01T12:00:00Z",
   "trial_duration_days": 30,
   "time_restrictions": {
     "allowed_from": "08:00",
-    "allowed_to": "20:00",
+    "allowed_to": "23:00",
     "timezone": "UTC",
     "allowed_days": ["mon","tue","wed","thu","fri","sat","sun"]
   },
