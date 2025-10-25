@@ -26,6 +26,7 @@
     "mac_addresses": []
   },
   "notes": "Replace placeholder values. For a full license set \"license_type\" to \"Full\" and populate expiry_date as null or a distant future date.",
+  "expired_message": "Your trial period has ended. To continue using DeranCab, please purchase a full license or contact support at support@derancab.example.",
   "signature": null,
   "metadata": {
     "format_version": "1.0",

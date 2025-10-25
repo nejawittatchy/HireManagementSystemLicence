@@ -23,11 +23,14 @@ Top-level schema (JSON):
 - signature: string|null — optional digital signature for tamper detection
 - metadata: object — format_version and file_type
 
+- expired_message: string — optional user-facing message shown when the license is expired or a trial has ended. If present, the desktop app should display this message to the user (fall back to a default friendly message if not provided).
+
 Notes for the desktop app
 - Parse the file as UTF-8 JSON. If parsing fails, treat the license as invalid.
 - Validate required fields: `license_type`, `license_key`, `issued_date`, `activation_date`.
 - If `expiry_date` is present and now > expiry_date, license is expired.
 - For `Trial` licenses, prefer to validate `trial_duration_days` in combination with `activation_date`.
+ - If the license is expired (trial or expiry_date passed) and `expired_message` exists, display it to the user. Suggested default message if none provided: "Your trial has expired. Please purchase a full license to continue using DeranCab or contact support@derancab.example."
 - If `hardware_binding.machine_id` or `mac_addresses` is set, verify against the current machine.
 - If `signature` is used, verify signature before trusting fields.
 
@@ -40,3 +43,8 @@ Versioning
 
 Security
 - Keep license files readable only by the application where possible. Consider storing signatures and verifying them to prevent tampering.
+
+Suggested user-facing behavior when a trial expires
+- Show `expired_message` if present. Keep message actionable: include a purchase link or contact email.
+- Provide a prominent CTA (purchase or enter license key) and a way to copy the support email or open the user's browser to the purchase URL.
+- Do not expose internal license metadata in the UI.
