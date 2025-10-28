@@ -1,5 +1,5 @@
 {
-  "license_type": "Full",
+  "license_type": "Trial",
   "license_key": "DERANA-FULL-0000-0000",
   "issued_to": "Example Customer",
   "issued_by": "DeranaCab",
@@ -18,7 +18,7 @@
     "max_concurrent_users": 1
   },
   "features": {
-    "full_access": true,
+    "full_access": false,
     "enabled": ["booking","basic-reports"]
   },
   "hardware_binding": {
