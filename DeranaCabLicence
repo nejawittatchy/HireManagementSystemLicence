@@ -1,11 +1,11 @@
 {
-  "license_type": "Trial",
+  "license_type": "Full",
   "license_key": "DERANA-FULL-0000-0000",
   "issued_to": "Example Customer",
   "issued_by": "DeranaCab",
   "issued_date": "2025-10-24T12:00:00Z",
   "activation_date": "2025-10-24T12:00:00Z",
-  "expiry_date": "2025-11-01T12:00:00Z",
+  "expiry_date": "2100-11-01T12:00:00Z",
   "trial_duration_days": 30,
   "time_restrictions": {
     "allowed_from": "08:00",
@@ -18,7 +18,7 @@
     "max_concurrent_users": 1
   },
   "features": {
-    "full_access": false,
+    "full_access": true,
     "enabled": ["booking","basic-reports"]
   },
   "hardware_binding": {
