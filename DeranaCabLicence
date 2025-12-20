@@ -1,11 +1,11 @@
 {
-  "license_type": "Full",
-  "license_key": "DERANA-FULL-0000-0000",
+  "license_type": "Trial",
+  "license_key": "DERANA-TRIAL-0000-0000",
   "issued_to": "Example Customer",
   "issued_by": "DeranaCab",
   "issued_date": "2025-10-24T12:00:00Z",
   "activation_date": "2025-10-24T12:00:00Z",
-  "expiry_date": "2100-11-01T12:00:00Z",
+  "expiry_date": "2025-11-01T12:00:00Z",
   "trial_duration_days": 30,
   "time_restrictions": {
     "allowed_from": "08:00",
@@ -18,7 +18,7 @@
     "max_concurrent_users": 1
   },
   "features": {
-    "full_access": true,
+    "full_access": false,
     "enabled": ["booking","basic-reports"]
   },
   "hardware_binding": {
@@ -26,8 +26,8 @@
     "mac_addresses": []
   },
   "notes": "Replace placeholder values. For a full license set \"license_type\" to \"Full\" and populate expiry_date as null or a distant future date.",
-  "expired_message": "Your trial period has ended. To continue using DeranCab, please purchase a full license or contact support at support@derancab.example.",
-  "signature": null,
+  "expired_message": "Your trial period has ended. To continue using DeranCabHireManagement, please purchase a full license or contact support at kavwren.dev@gmail.com.",
+  "signature": Kavwren Labs,
   "metadata": {
     "format_version": "1.0",
     "file_type": "derancab-license-json"
