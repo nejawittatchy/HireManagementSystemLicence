@@ -27,7 +27,7 @@
   },
   "notes": "Replace placeholder values. For a full license set \"license_type\" to \"Full\" and populate expiry_date as null or a distant future date.",
   "expired_message": "Your trial period has ended. To continue using DeranCabHireManagement, please purchase a full license or contact support at kavwren.dev@gmail.com.",
-  "signature": Kavwren Labs,
+  "signature": "Kavwren Labs",
   "metadata": {
     "format_version": "1.0",
     "file_type": "derancab-license-json"
